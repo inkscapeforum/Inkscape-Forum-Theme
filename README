@@ -1,0 +1,14 @@
+Das ist das Theme vom Inkscape-Forum. 
+
+Als Software verwenden wir das Vanilla2 Forum. 
+ - http://vanillaforums.org/ 
+
+= Installation = 
+
+Zuerst muss das Vanilla-Forum lokal installiert werden. 
+
+Anschliessend kann dieses Repository in den Ordner /themes/inkscape_forum ausgecheckt werden. 
+
+Im nächsten Schritt kann das Theme im Dashboard unter Aussehen -> Themes -> "Inkscape Forum" verwendet werden. 
+
+
