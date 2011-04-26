@@ -410,7 +410,7 @@ div.MorePager a.Loading {
 #Head {
    background: #38abe3;
    padding: 0;
-   background: url(/themes/inkscape_forum/design/Inkscape_header.gif) repeat-x left top #FFFFFF;
+   background: url('/themes/inkscape_forum/design/Inkscape_header.gif') repeat-x left top #FFFFFF;
    height: 66px; 
 }
 div.Search:after,
@@ -960,10 +960,14 @@ div.Icons img {
 div.Empty {
    margin: 10px 0;
 }
+#vanilla_discussions_index .DataList {
+    margin-left: 39px;
+}
 ul.DataList li.Item {
    margin: 0;
    padding: 4px 0;
    border-bottom: 1px solid #bec8cc;
+   border-left: 1px solid #bec8cc;
 }
 ul.DataList li.Item li.Item {
    border-bottom: none;
@@ -2050,10 +2054,9 @@ body.Discussion .Back {
 /* =================================================================== Drafts */
 ul.Discussions div.ItemContent,
 ul.Drafts div.ItemContent {
-   margin: 0 0 0 0px;
-   padding-left: 44px;
+   margin: 0 0 0 -40px;
+   padding-left: 46px;
    position: relative; 
-   left: -44px; 
 }
 ul.Drafts div.ItemContent a.Title,
 ul.Discussions div.ItemContent a.Title {
@@ -2728,28 +2731,28 @@ div.SignInPopup .ExistingUsername {
 
 	
 .Category_1 { 
-	background: transparent url('/themes/inkscape_forum/design/category1.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category1.gif') 0 50% no-repeat;
 }
 .Category_2 { 
-	background: transparent url('/themes/inkscape_forum/design/category2.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category2.gif') 0 50% no-repeat;
 }
 .Category_3 { 
-	background: transparent url('/themes/inkscape_forum/design/category3.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category3.gif') 0 50% no-repeat;
 }
 .Category_4 { 
-	background: transparent url('/themes/inkscape_forum/design/category4.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category4.gif') 0 50% no-repeat;
 }
 .Category_5 { 
-	background: transparent url('/themes/inkscape_forum/design/category5.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category5.gif') 0 50% no-repeat;
 }
 .Category_6 { 
-	background: transparent url('/themes/inkscape_forum/design/category6.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category6.gif') 0 50% no-repeat;
 }
 .Category_7 { 
-	background: transparent url('/themes/inkscape_forum/design/category7.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category7.gif') 0 50% no-repeat;
 }	
 .Category_8 { 
-	background: transparent url('/themes/inkscape_forum/design/category8.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category8.gif') 0 50% no-repeat;
 }	
 
 
