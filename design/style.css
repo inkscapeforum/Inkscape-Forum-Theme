@@ -960,7 +960,8 @@ div.Icons img {
 div.Empty {
    margin: 10px 0;
 }
-#vanilla_discussions_index .DataList {
+#vanilla_discussions_index .DataList,
+#vanilla_discussions_popular .DataList {
     margin-left: 39px;
 }
 ul.DataList li.Item {
