@@ -411,7 +411,7 @@ div.MorePager a.Loading {
    background: #38abe3;
    padding: 0;
    background: url('/themes/inkscape_forum/design/Inkscape_header.gif') repeat-x left top #FFFFFF;
-   height: 66px; 
+   height: 94px; 
 }
 div.Search:after,
 div#Search:after {
@@ -486,13 +486,15 @@ body #Head h1 {
 	display: none;
 }
 #Menu li {
+   border-left: 1px solid #484848;
+   border-right: 1px solid #373737;
    line-height: 27px;
-   float: right;
+   float: left;
    position: relative;
    display: block;
    list-style: none;
    padding: 0;
-   margin: 0 4px 0 0;
+   margin: 0;
    font-weight: bold;
    text-align: left;
 }
@@ -665,19 +667,19 @@ ul.Options li.Active ul {
 
 /* ================================================================ Main Menu */
 div.Menu {
-   width: 960px;
    margin: 0 auto;
    position: relative;
    text-align: left;
    vertical-align: bottom;
-  height: 66px; 
+   height: 94px; 
 }
 ul#Menu {
+   background: url('/themes/inkscape_forum/design/menu_bg.png') repeat-x center left #4c4c4c;
+   border-bottom: 1px solid #4c4c4c;
    display: inline-block;
    position: absolute; 
    vertical-align: bottom;
-   width: 475px; 
-   padding-left: 200px; 
+   width: 100%; 
    bottom: 5px; 
 }
 #Menu ul,
@@ -689,7 +691,7 @@ ul#Menu {
    color: #fff;
 }
 #Menu a:hover {
-   background: #2595cb;
+   background: url('/themes/inkscape_forum/design/menu_hover.png') repeat-x center left #4d4d4d;
 }
 #Menu a:hover,
 #Menu li.NonTab a:hover {
@@ -700,7 +702,7 @@ ul#Menu {
 #Menu li.Active a span,
 #Menu li.Highlight a:hover span {
    background: #f2fcff;
-   color: #299fc7;
+   color: #4c4c4c;
 }
 
 #Head .Search, #Head #Search {
@@ -708,6 +710,7 @@ ul#Menu {
    right: 0;
    top: 2px;
    text-align: right;
+   margin-right: 18px;
 }
 
 /* ======================================================== Panels / Sidebars */
@@ -961,14 +964,19 @@ div.Empty {
    margin: 10px 0;
 }
 #vanilla_discussions_index .DataList,
-#vanilla_discussions_popular .DataList {
+#vanilla_discussions_popular .DataList,
+#vanilla_categories_index .DataList {
     margin-left: 39px;
 }
 ul.DataList li.Item {
    margin: 0;
    padding: 4px 0;
    border-bottom: 1px solid #bec8cc;
-   border-left: 1px solid #bec8cc;
+}
+#vanilla_discussions_index ul.DataList li.Item,
+#vanilla_discussions_popular ul.DataList li.Item,
+#vanilla_categories_index ul.DataList li.Item {
+    border-left: 1px solid #bec8cc;
 }
 ul.DataList li.Item li.Item {
    border-bottom: none;
