@@ -71,7 +71,7 @@ body {
 	font-family: 'lucida grande','Lucida Sans Unicode', tahoma, sans-serif;
 	font-size: 75%;
 	line-height: 1.7em;
-   background: #fff;
+   background: url('/themes/inkscape_forum/design/body_bg.png') repeat-x left top #FFFFFF;
    margin: 0;
    padding: 0;
    text-align: center;
@@ -186,7 +186,7 @@ a.Button,
    font-size: 11px;
    padding: 4px;
    background: url('images/buttonbg.png') repeat-x center left #f8f8f8;
-   color: #02475A;
+   color: #4d4d4d;
 	text-shadow: 0 1px 0 #fff;
    border: 1px solid #999;
    border-radius: 3px;
@@ -365,7 +365,7 @@ div.DismissMessage a.Dismiss:hover {
 	text-align: left;
 }
 div.MorePager a.Loading {
-	border: 0 !important;
+	 border: 0 !important;
    padding: 0 20px !important;
    background: url('images/progress.gif') center center no-repeat !important;
 }
@@ -411,7 +411,7 @@ div.MorePager a.Loading {
    background: #38abe3;
    padding: 0;
    background: url('/themes/inkscape_forum/design/Inkscape_header.gif') repeat-x left top #FFFFFF;
-   height: 94px; 
+   height: 89px; 
 }
 div.Search:after,
 div#Search:after {
@@ -462,11 +462,11 @@ body #Head h1 {
    font-size: 13px;
 }
 #Head form input.Button {
-   border: 0;
+   border: 1px solid #DDDDDD;
    width: 38px;
    height: 26px;
    background: #cfecff;
-   color: #1e79a7;
+   color: #666666;
    padding: 3px 0 4px;
    margin: 0;
    -moz-border-radius: 0;
@@ -481,6 +481,10 @@ body #Head h1 {
   	box-shadow: none;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;     	
+}
+#Form_Go {
+   background: url('/themes/inkscape_forum/design/searchbtn_bg.png') repeat-x left top #E6E6E6 !important;
+   color: #666666;
 }
 #Menu ul {
 	display: none;
@@ -722,17 +726,17 @@ div.Box {
    border-radius: 1px;
    -moz-border-radius: 1px;
    -webkit-border-radius: 1px;
-   background: #cfecff;
+   background: #4D4D4D;
    color: #888;
    padding: 6px 10px;
    margin: 0 0 10px;
-	box-shadow: 0px 0px 2px #999;
+	 box-shadow: 0px 0px 2px #999;
 	-moz-box-shadow: 0px 0px 2px #999;
 	-webkit-box-shadow: 0px 0px 2px #999;  
 }
 div.Box h4 {
    font-size: 110%;
-   color: #1e79a7;
+   color: #ff7f2a;
    font-weight: bold;
    margin: 0;
    padding: 0 0 1px;
@@ -753,7 +757,10 @@ div.Box dl dd {
 div.Box p {
    font-size: 100%;
    padding: 0 0 4px;
-   color: #555;
+   color: #fdfdfd;
+}
+.BoxCategories h4 a {
+   color: #f0f0f0;
 }
 ul.PanelActivity {
    border-top: 1px solid #abdafb;
@@ -789,9 +796,18 @@ ul.PanelActivity li em {
 ul.PanelActivity li div.Story {
 	font-size: 85%;
 }
+ul.PanelCategories a {
+   color: #4d4d4d;
+}
+ul.PanelCategories a:hover {
+   color: #111111;
+}
+ul.PanelCategories li.Active a {
+   color: #999999 !important;
+}
 ul.PanelInfo li {
-   background: #e3f4ff;
-   border-bottom: 1px solid #abdafb;
+   background: #f0f0f0;
+   border-bottom: 1px solid #bbbbbb;
    padding: 2px 4px;
    text-align: right;
 }
@@ -848,7 +864,7 @@ ul.PanelInfo li.Parent {
 }
 ul.PanelInfo li.Active {
    background: #fff;
-   border-bottom: 1px solid #a3e6ff;
+   border-bottom: 1px solid #aaaaaa;
 }
 ul.PanelInfo li.Active a {
    color: #1e79a7;
@@ -1575,11 +1591,11 @@ div.MessageForm {
 div.MessageForm,
 div.Tabs,
 div.Headings {
-	display: block;
-   border-bottom: 1px solid #abdafb;
+	 display: block;
+   border-bottom: 1px solid #999999;
    padding: 5px 8px;
    margin: 0;
-   background: #cfecff;
+   background: #E1E1E1;
 }
 div.MessageForm div.Tabs {
 	padding: 0;
@@ -1610,14 +1626,14 @@ div.Tabs li a:hover,
 div.Tabs li a:active,
 div.Tabs li a:visited {
    margin: 0;
-   border: 1px solid #abdafb;
+   border: 1px solid #999999;
    border-radius: 3px;
    -moz-border-radius: 3px;
    -webkit-border-radius: 3px;
-   background: #bbe2f7;
+   background: #E6E6E6;
    display: inline;
    font-weight: bold;
-   color: #1e79a7;
+   color: #666666;
    text-decoration: none;
    padding: 5px 10px;
 	line-height: 2.6;
@@ -1625,7 +1641,7 @@ div.Tabs li a:visited {
 div.MorePager li a:hover,
 a.TabLink:hover,
 div.Tabs li a:hover {
-   background: #f3fcff;
+   background: #f6f6f6;
 }
 a.Active,
 div.Tabs li.Active a {
