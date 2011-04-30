@@ -705,7 +705,7 @@ ul#Menu {
 #Menu a span,
 #Menu li.Active a span,
 #Menu li.Highlight a:hover span {
-   background: #f2fcff;
+   background: #fdfdfd;
    color: #4c4c4c;
 }
 
@@ -740,6 +740,15 @@ div.Box h4 {
    font-weight: bold;
    margin: 0;
    padding: 0 0 1px;
+}
+#WhosOnline h4 {
+   color: #F0F0F0;
+}
+#WhosOnline a {
+   color: #4d4d4d;
+}
+#WhosOnline a:hover {
+   color: #111111;
 }
 div.Box dl {
    overflow: hidden;
@@ -898,7 +907,7 @@ a.BigButton {
    font-weight: bold;
    padding: 8px 0;
    background: url('images/buttonbg.png') repeat-x center left #f8f8f8;
-   color: #02475A;
+   color: #333333;
 	text-shadow: 0 1px 0 #fff;
    border: 1px solid #999;
    border-radius: 3px;
@@ -993,6 +1002,7 @@ ul.DataList li.Item {
 #vanilla_discussions_popular ul.DataList li.Item,
 #vanilla_categories_index ul.DataList li.Item {
     border-left: 1px solid #bec8cc;
+    background: url('/themes/inkscape_forum/design/item_bg.png') repeat-x left top #FFFFFF;
 }
 ul.DataList li.Item li.Item {
    border-bottom: none;
@@ -1656,7 +1666,7 @@ div.Tabs li a span {
    -webkit-border-radius: 3px;
    -moz-border-radius: 3px;
    font-weight: normal;
-   background: #1e79a7;
+   background: #999999;
    color: #eaf4fd;
    margin: 0 0 0 4px;
 }
@@ -2011,7 +2021,7 @@ ul.DataList div.Meta a.Category {
    -webkit-border-radius: 2px;
 }
 ul.DataList li.Mine div.Meta a.Category {
-   background: #eff7ff;
+   background: #F0F0F0;
 }
 
 ul.DataList div.Meta span.Announcement {
