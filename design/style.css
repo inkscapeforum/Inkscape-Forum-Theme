@@ -2526,10 +2526,32 @@ div.SignInPopup div.Box {
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
 }
+#Form_User_SignIn li,
+#Form_User_SignIn label,
+#Form_User_Password label,
+#Form_User_Register li,
+#Form_User_Register label {
+   color: #F0F0F0 !important;
+}
+#Form_User_SignIn a,
+#Form_User_Password a,
+#Form_User_Register a {
+   color: #FF7F2A;
+}
+#Form_User_SignIn a:hover,
+#Form_User_Password a:hover,
+#Form_User_Register a:hover {
+   color: #FFB687;
+}
 body#dashboard_entry_password #Content,
 body#dashboard_entry_signin #Content,
 body#dashboard_entry_index #Content {
 	width: auto;
+}
+body#dashboard_entry_signin #Content h1,
+body#dashboard_entry_register #Content h1,
+body#dashboard_entry_passwordrequest #Content h1 {
+   color: #333333;
 }
 div.SignInPopup .Content form {
 	padding: 0 10px 10px;
