@@ -157,6 +157,9 @@ textarea.TextBox {
    height: 100px;
    min-height: 100px;
 }
+#Popup {
+   top: 89px !important;
+}
 #Popup textarea.TextBox {
    width: 100%;
 }
@@ -695,7 +698,7 @@ ul#Menu {
    color: #fff;
 }
 #Menu a:hover {
-   background: url('/themes/inkscape_forum/design/menu_hover.png') repeat-x center left #4d4d4d;
+   background: url('/themes/inkscape_forum/design/menu_hover.png') repeat-x center left #4d4d4d !important;
 }
 #Menu a:hover,
 #Menu li.NonTab a:hover {
@@ -1849,8 +1852,8 @@ div.Connect h2 {
 	font-weight:bold;
 	margin-bottom: 0;
 	color: #fff;
-	background: #38abe3;
-	border-bottom: 1px solid #3DB9E5;
+	background: #000000;
+	border-bottom: 1px solid #999999;
 	padding: 6px 9px 4px;
 }
 a.Close {
@@ -1858,7 +1861,7 @@ a.Close {
 	top: 16px;
 	right: 20px;
 	line-height: 1;
-	color: #E4F7FE;
+	color: #E0E0E0;
 	cursor: pointer;
 	font-family: arial;
 	font-size: 22px;
@@ -2555,6 +2558,7 @@ body#dashboard_entry_passwordrequest #Content h1 {
 }
 div.SignInPopup .Content form {
 	padding: 0 10px 10px;
+	background: url('/themes/inkscape_forum/design/box_bg.png') repeat-x left top #4D4D4D;
 }
 body#dashboard_entry_password #Content form,
 body#dashboard_entry_index #Content form,
