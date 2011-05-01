@@ -726,7 +726,7 @@ div.Box {
    border-radius: 1px;
    -moz-border-radius: 1px;
    -webkit-border-radius: 1px;
-   background: #4D4D4D;
+   background: url('/themes/inkscape_forum/design/box_bg.png') repeat-x left top #4D4D4D;
    color: #888;
    padding: 6px 10px;
    margin: 0 0 10px;
