@@ -71,7 +71,7 @@ body {
 	font-family: 'lucida grande','Lucida Sans Unicode', tahoma, sans-serif;
 	font-size: 75%;
 	line-height: 1.7em;
-   background: #fff;
+   background: url('/themes/inkscape_forum/design/body_bg.png') repeat-x left top #FFFFFF;
    margin: 0;
    padding: 0;
    text-align: center;
@@ -157,6 +157,9 @@ textarea.TextBox {
    height: 100px;
    min-height: 100px;
 }
+#Popup {
+   top: 89px !important;
+}
 #Popup textarea.TextBox {
    width: 100%;
 }
@@ -186,7 +189,7 @@ a.Button,
    font-size: 11px;
    padding: 4px;
    background: url('images/buttonbg.png') repeat-x center left #f8f8f8;
-   color: #02475A;
+   color: #4d4d4d;
 	text-shadow: 0 1px 0 #fff;
    border: 1px solid #999;
    border-radius: 3px;
@@ -365,7 +368,7 @@ div.DismissMessage a.Dismiss:hover {
 	text-align: left;
 }
 div.MorePager a.Loading {
-	border: 0 !important;
+	 border: 0 !important;
    padding: 0 20px !important;
    background: url('images/progress.gif') center center no-repeat !important;
 }
@@ -410,8 +413,8 @@ div.MorePager a.Loading {
 #Head {
    background: #38abe3;
    padding: 0;
-   background: url(/themes/inkscape_forum/design/Inkscape_header.gif) repeat-x left top #FFFFFF;
-   height: 66px; 
+   background: url('/themes/inkscape_forum/design/Inkscape_header.gif') repeat-x left top #FFFFFF;
+   height: 89px; 
 }
 div.Search:after,
 div#Search:after {
@@ -462,11 +465,11 @@ body #Head h1 {
    font-size: 13px;
 }
 #Head form input.Button {
-   border: 0;
+   border: 1px solid #DDDDDD;
    width: 38px;
    height: 26px;
    background: #cfecff;
-   color: #1e79a7;
+   color: #666666;
    padding: 3px 0 4px;
    margin: 0;
    -moz-border-radius: 0;
@@ -482,17 +485,23 @@ body #Head h1 {
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;     	
 }
+#Form_Go {
+   background: url('/themes/inkscape_forum/design/searchbtn_bg.png') repeat-x left top #E6E6E6 !important;
+   color: #666666;
+}
 #Menu ul {
 	display: none;
 }
 #Menu li {
+   border-left: 1px solid #484848;
+   border-right: 1px solid #373737;
    line-height: 27px;
-   float: right;
+   float: left;
    position: relative;
    display: block;
    list-style: none;
    padding: 0;
-   margin: 0 4px 0 0;
+   margin: 0;
    font-weight: bold;
    text-align: left;
 }
@@ -665,19 +674,19 @@ ul.Options li.Active ul {
 
 /* ================================================================ Main Menu */
 div.Menu {
-   width: 960px;
    margin: 0 auto;
    position: relative;
    text-align: left;
    vertical-align: bottom;
-  height: 66px; 
+   height: 94px; 
 }
 ul#Menu {
+   background: url('/themes/inkscape_forum/design/menu_bg.png') repeat-x center left #4c4c4c;
+   border-bottom: 1px solid #4c4c4c;
    display: inline-block;
    position: absolute; 
    vertical-align: bottom;
-   width: 475px; 
-   padding-left: 200px; 
+   width: 100%; 
    bottom: 5px; 
 }
 #Menu ul,
@@ -689,7 +698,7 @@ ul#Menu {
    color: #fff;
 }
 #Menu a:hover {
-   background: #2595cb;
+   background: url('/themes/inkscape_forum/design/menu_hover.png') repeat-x center left #4d4d4d !important;
 }
 #Menu a:hover,
 #Menu li.NonTab a:hover {
@@ -699,8 +708,8 @@ ul#Menu {
 #Menu a span,
 #Menu li.Active a span,
 #Menu li.Highlight a:hover span {
-   background: #f2fcff;
-   color: #299fc7;
+   background: #fdfdfd;
+   color: #4c4c4c;
 }
 
 #Head .Search, #Head #Search {
@@ -708,6 +717,7 @@ ul#Menu {
    right: 0;
    top: 2px;
    text-align: right;
+   margin-right: 18px;
 }
 
 /* ======================================================== Panels / Sidebars */
@@ -719,20 +729,29 @@ div.Box {
    border-radius: 1px;
    -moz-border-radius: 1px;
    -webkit-border-radius: 1px;
-   background: #cfecff;
+   background: url('/themes/inkscape_forum/design/box_bg.png') repeat-x left top #4D4D4D;
    color: #888;
    padding: 6px 10px;
    margin: 0 0 10px;
-	box-shadow: 0px 0px 2px #999;
+	 box-shadow: 0px 0px 2px #999;
 	-moz-box-shadow: 0px 0px 2px #999;
 	-webkit-box-shadow: 0px 0px 2px #999;  
 }
 div.Box h4 {
    font-size: 110%;
-   color: #1e79a7;
+   color: #ff7f2a;
    font-weight: bold;
    margin: 0;
    padding: 0 0 1px;
+}
+#WhosOnline h4 {
+   color: #F0F0F0;
+}
+#WhosOnline a {
+   color: #4d4d4d;
+}
+#WhosOnline a:hover {
+   color: #111111;
 }
 div.Box dl {
    overflow: hidden;
@@ -750,7 +769,10 @@ div.Box dl dd {
 div.Box p {
    font-size: 100%;
    padding: 0 0 4px;
-   color: #555;
+   color: #fdfdfd;
+}
+.BoxCategories h4 a {
+   color: #f0f0f0;
 }
 ul.PanelActivity {
    border-top: 1px solid #abdafb;
@@ -786,9 +808,18 @@ ul.PanelActivity li em {
 ul.PanelActivity li div.Story {
 	font-size: 85%;
 }
+ul.PanelCategories a {
+   color: #4d4d4d;
+}
+ul.PanelCategories a:hover {
+   color: #111111;
+}
+ul.PanelCategories li.Active a {
+   color: #999999 !important;
+}
 ul.PanelInfo li {
-   background: #e3f4ff;
-   border-bottom: 1px solid #abdafb;
+   background: #f0f0f0;
+   border-bottom: 1px solid #bbbbbb;
    padding: 2px 4px;
    text-align: right;
 }
@@ -845,7 +876,7 @@ ul.PanelInfo li.Parent {
 }
 ul.PanelInfo li.Active {
    background: #fff;
-   border-bottom: 1px solid #a3e6ff;
+   border-bottom: 1px solid #aaaaaa;
 }
 ul.PanelInfo li.Active a {
    color: #1e79a7;
@@ -879,7 +910,7 @@ a.BigButton {
    font-weight: bold;
    padding: 8px 0;
    background: url('images/buttonbg.png') repeat-x center left #f8f8f8;
-   color: #02475A;
+   color: #333333;
 	text-shadow: 0 1px 0 #fff;
    border: 1px solid #999;
    border-radius: 3px;
@@ -960,10 +991,21 @@ div.Icons img {
 div.Empty {
    margin: 10px 0;
 }
+#vanilla_discussions_index .DataList,
+#vanilla_discussions_popular .DataList,
+#vanilla_categories_index .DataList {
+    margin-left: 39px;
+}
 ul.DataList li.Item {
    margin: 0;
    padding: 4px 0;
    border-bottom: 1px solid #bec8cc;
+}
+#vanilla_discussions_index ul.DataList li.Item,
+#vanilla_discussions_popular ul.DataList li.Item,
+#vanilla_categories_index ul.DataList li.Item {
+    border-left: 1px solid #bec8cc;
+    background: url('/themes/inkscape_forum/design/item_bg.png') repeat-x left top #FFFFFF;
 }
 ul.DataList li.Item li.Item {
    border-bottom: none;
@@ -1562,11 +1604,11 @@ div.MessageForm {
 div.MessageForm,
 div.Tabs,
 div.Headings {
-	display: block;
-   border-bottom: 1px solid #abdafb;
+	 display: block;
+   border-bottom: 1px solid #999999;
    padding: 5px 8px;
    margin: 0;
-   background: #cfecff;
+   background: #E1E1E1;
 }
 div.MessageForm div.Tabs {
 	padding: 0;
@@ -1597,14 +1639,14 @@ div.Tabs li a:hover,
 div.Tabs li a:active,
 div.Tabs li a:visited {
    margin: 0;
-   border: 1px solid #abdafb;
+   border: 1px solid #999999;
    border-radius: 3px;
    -moz-border-radius: 3px;
    -webkit-border-radius: 3px;
-   background: #bbe2f7;
+   background: #E6E6E6;
    display: inline;
    font-weight: bold;
-   color: #1e79a7;
+   color: #666666;
    text-decoration: none;
    padding: 5px 10px;
 	line-height: 2.6;
@@ -1612,7 +1654,7 @@ div.Tabs li a:visited {
 div.MorePager li a:hover,
 a.TabLink:hover,
 div.Tabs li a:hover {
-   background: #f3fcff;
+   background: #f6f6f6;
 }
 a.Active,
 div.Tabs li.Active a {
@@ -1627,7 +1669,7 @@ div.Tabs li a span {
    -webkit-border-radius: 3px;
    -moz-border-radius: 3px;
    font-weight: normal;
-   background: #1e79a7;
+   background: #999999;
    color: #eaf4fd;
    margin: 0 0 0 4px;
 }
@@ -1810,8 +1852,8 @@ div.Connect h2 {
 	font-weight:bold;
 	margin-bottom: 0;
 	color: #fff;
-	background: #38abe3;
-	border-bottom: 1px solid #3DB9E5;
+	background: #000000;
+	border-bottom: 1px solid #999999;
 	padding: 6px 9px 4px;
 }
 a.Close {
@@ -1819,7 +1861,7 @@ a.Close {
 	top: 16px;
 	right: 20px;
 	line-height: 1;
-	color: #E4F7FE;
+	color: #E0E0E0;
 	cursor: pointer;
 	font-family: arial;
 	font-size: 22px;
@@ -1982,7 +2024,7 @@ ul.DataList div.Meta a.Category {
    -webkit-border-radius: 2px;
 }
 ul.DataList li.Mine div.Meta a.Category {
-   background: #eff7ff;
+   background: #F0F0F0;
 }
 
 ul.DataList div.Meta span.Announcement {
@@ -2050,10 +2092,9 @@ body.Discussion .Back {
 /* =================================================================== Drafts */
 ul.Discussions div.ItemContent,
 ul.Drafts div.ItemContent {
-   margin: 0 0 0 0px;
-   padding-left: 44px;
+   margin: 0 0 0 -40px;
+   padding-left: 46px;
    position: relative; 
-   left: -44px; 
 }
 ul.Drafts div.ItemContent a.Title,
 ul.Discussions div.ItemContent a.Title {
@@ -2488,13 +2529,36 @@ div.SignInPopup div.Box {
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
 }
+#Form_User_SignIn li,
+#Form_User_SignIn label,
+#Form_User_Password label,
+#Form_User_Register li,
+#Form_User_Register label {
+   color: #F0F0F0 !important;
+}
+#Form_User_SignIn a,
+#Form_User_Password a,
+#Form_User_Register a {
+   color: #FF7F2A;
+}
+#Form_User_SignIn a:hover,
+#Form_User_Password a:hover,
+#Form_User_Register a:hover {
+   color: #FFB687;
+}
 body#dashboard_entry_password #Content,
 body#dashboard_entry_signin #Content,
 body#dashboard_entry_index #Content {
 	width: auto;
 }
+body#dashboard_entry_signin #Content h1,
+body#dashboard_entry_register #Content h1,
+body#dashboard_entry_passwordrequest #Content h1 {
+   color: #333333;
+}
 div.SignInPopup .Content form {
 	padding: 0 10px 10px;
+	background: url('/themes/inkscape_forum/design/box_bg.png') repeat-x left top #4D4D4D;
 }
 body#dashboard_entry_password #Content form,
 body#dashboard_entry_index #Content form,
@@ -2728,28 +2792,28 @@ div.SignInPopup .ExistingUsername {
 
 	
 .Category_1 { 
-	background: transparent url('/themes/inkscape_forum/design/category1.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category1.gif') 0 50% no-repeat;
 }
 .Category_2 { 
-	background: transparent url('/themes/inkscape_forum/design/category2.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category2.gif') 0 50% no-repeat;
 }
 .Category_3 { 
-	background: transparent url('/themes/inkscape_forum/design/category3.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category3.gif') 0 50% no-repeat;
 }
 .Category_4 { 
-	background: transparent url('/themes/inkscape_forum/design/category4.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category4.gif') 0 50% no-repeat;
 }
 .Category_5 { 
-	background: transparent url('/themes/inkscape_forum/design/category5.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category5.gif') 0 50% no-repeat;
 }
 .Category_6 { 
-	background: transparent url('/themes/inkscape_forum/design/category6.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category6.gif') 0 50% no-repeat;
 }
 .Category_7 { 
-	background: transparent url('/themes/inkscape_forum/design/category7.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category7.gif') 0 50% no-repeat;
 }	
 .Category_8 { 
-	background: transparent url('/themes/inkscape_forum/design/category8.gif') 12px 50% no-repeat;
+	background: transparent url('/themes/inkscape_forum/design/category8.gif') 0 50% no-repeat;
 }	
 
 
