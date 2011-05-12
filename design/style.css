@@ -170,7 +170,7 @@ input.InputBox {
 input.SmallInput:focus,
 input.InputBox:focus,
 textarea:focus {
-   background: #ffe;
+   background: #FAFAFA;
 }
 textarea {
    line-height: 128%;
@@ -760,7 +760,7 @@ div.Box dl dt {
 	font-size: 12px;
    float: left;
    width: 80px;
-   color: #555;
+   color: #F0F0F0;
 }
 div.Box dl dd {
 	font-size: 12px;
@@ -996,7 +996,9 @@ div.Empty {
 }
 #vanilla_discussions_index .DataList,
 #vanilla_discussions_popular .DataList,
-#vanilla_categories_index .DataList {
+#vanilla_discussions_mine .DataList,
+#vanilla_categories_index .DataList,
+#dashboard_profile_discussions .DataList {
     margin-left: 39px;
 }
 ul.DataList li.Item {
@@ -1191,7 +1193,7 @@ ul.Activities li.Item li.HasPhoto div.ItemContent {
 	margin-left: 42px;
 }
 ul.Activities ul.DataList li {
-	background: #D7E7FF;
+	background: #EAEAEA;
 	margin-bottom: 2px;
 	padding: 6px;
 }
