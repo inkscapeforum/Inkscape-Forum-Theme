@@ -765,6 +765,16 @@ div.Box dl dt {
 div.Box dl dd {
 	font-size: 12px;
    margin-left: 80px;
+   color: #DDDDDD;
+}
+div.Box dl dd a, 
+div.Box dl dd a:link, 
+div.Box dl dd a:visited, 
+div.Box dl dd a:active {
+   color: #DDDDDD;
+}
+div.Box dl dd a:hover {
+   color: #FF7F2A;
 }
 div.Box p {
    font-size: 100%;
