@@ -832,7 +832,7 @@ ul.PanelInfo li.Heading {
    font-weight: bold;
 }
 ul.PanelInfo {
-   border-top: 1px solid #abdafb;
+   border-top: 1px solid #999999;
 	border-bottom: 0;
 }
 ul.PanelInfo li strong {
@@ -1393,7 +1393,7 @@ div.Message div.ImageResized {
 /* The "Foot" is at the bottom of the #Content section. Used for more results
 links, sign in buttons, etc */
 .Foot {
-	border-bottom: 1px solid #abdafb;
+	border-bottom: 1px solid #999999;
    padding: 6px;
    background: url("/themes/inkscape_forum/design/tabs_bg.png") repeat-x scroll left top #E1E1E1;
    text-align: right;
