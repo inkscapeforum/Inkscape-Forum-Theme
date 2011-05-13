@@ -2158,8 +2158,8 @@ body.Post #Content {
    border-radius: 2px;
    -moz-border-radius: 2px;
    -webkit-border-radius: 2px;
-   background: #c4e1ff none repeat scroll 0 0;
-   border: 1px solid #7caccb;
+   background: #F0F0F0 none repeat scroll 0 0;
+   border: 1px solid #CCCCCC;
    margin: 0;
    padding: 20px;
 }
