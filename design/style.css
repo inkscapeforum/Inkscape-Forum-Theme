@@ -131,11 +131,11 @@ a:link,
 a:visited,
 a:active {
    text-decoration: none;
-   color: #1e79a7;
+   color: #4D4D4D;
 }
 a:hover {
    text-decoration: none;
-   color: #ff0084;
+   color: #ff7f2a;
 }
 input.DateBox,
 input.InputBox,
@@ -170,7 +170,7 @@ input.InputBox {
 input.SmallInput:focus,
 input.InputBox:focus,
 textarea:focus {
-   background: #ffe;
+   background: #FAFAFA;
 }
 textarea {
    line-height: 128%;
@@ -739,7 +739,7 @@ div.Box {
 }
 div.Box h4 {
    font-size: 110%;
-   color: #ff7f2a;
+   color: #F0F0F0;
    font-weight: bold;
    margin: 0;
    padding: 0 0 1px;
@@ -760,16 +760,29 @@ div.Box dl dt {
 	font-size: 12px;
    float: left;
    width: 80px;
-   color: #555;
+   color: #F0F0F0;
 }
 div.Box dl dd {
 	font-size: 12px;
    margin-left: 80px;
+   color: #DDDDDD;
+}
+div.Box dl dd a, 
+div.Box dl dd a:link, 
+div.Box dl dd a:visited, 
+div.Box dl dd a:active {
+   color: #DDDDDD;
+}
+div.Box dl dd a:hover {
+   color: #FF7F2A;
 }
 div.Box p {
    font-size: 100%;
    padding: 0 0 4px;
    color: #fdfdfd;
+}
+.GuestBox h4 {
+   color: #ff7f2a !important;
 }
 .BoxCategories h4 a {
    color: #f0f0f0;
@@ -829,7 +842,7 @@ ul.PanelInfo li.Heading {
    font-weight: bold;
 }
 ul.PanelInfo {
-   border-top: 1px solid #abdafb;
+   border-top: 1px solid #999999;
 	border-bottom: 0;
 }
 ul.PanelInfo li strong {
@@ -993,7 +1006,9 @@ div.Empty {
 }
 #vanilla_discussions_index .DataList,
 #vanilla_discussions_popular .DataList,
-#vanilla_categories_index .DataList {
+#vanilla_discussions_mine .DataList,
+#vanilla_categories_index .DataList,
+#dashboard_profile_discussions .DataList {
     margin-left: 39px;
 }
 ul.DataList li.Item {
@@ -1188,7 +1203,7 @@ ul.Activities li.Item li.HasPhoto div.ItemContent {
 	margin-left: 42px;
 }
 ul.Activities ul.DataList li {
-	background: #D7E7FF;
+	background: #EAEAEA;
 	margin-bottom: 2px;
 	padding: 6px;
 }
@@ -1388,9 +1403,9 @@ div.Message div.ImageResized {
 /* The "Foot" is at the bottom of the #Content section. Used for more results
 links, sign in buttons, etc */
 .Foot {
-	border-bottom: 1px solid #abdafb;
+	border-bottom: 1px solid #999999;
    padding: 6px;
-   background: #cfecff;
+   background: url("/themes/inkscape_forum/design/tabs_bg.png") repeat-x scroll left top #E1E1E1;
    text-align: right;
    border-bottom-right-radius: 2px;
    border-bottom-left-radius: 2px;
@@ -1604,11 +1619,11 @@ div.MessageForm {
 div.MessageForm,
 div.Tabs,
 div.Headings {
-	 display: block;
+	display: block;
    border-bottom: 1px solid #999999;
    padding: 5px 8px;
    margin: 0;
-   background: #E1E1E1;
+   background: url('/themes/inkscape_forum/design/tabs_bg.png') repeat-x left top #E1E1E1;
 }
 div.MessageForm div.Tabs {
 	padding: 0;
@@ -1676,7 +1691,7 @@ div.Tabs li a span {
 div.Tabs div.SubTab {
 	margin: 10px 0 0;
 	padding: 4px 8px;
-	background: #f3fcff;
+	background: #f0f0f0;
    border-radius: 2px;
    -webkit-border-radius: 2px;
    -moz-border-radius: 2px;
@@ -2143,8 +2158,8 @@ body.Post #Content {
    border-radius: 2px;
    -moz-border-radius: 2px;
    -webkit-border-radius: 2px;
-   background: #c4e1ff none repeat scroll 0 0;
-   border: 1px solid #7caccb;
+   background: #F0F0F0 none repeat scroll 0 0;
+   border: 1px solid #CCCCCC;
    margin: 0;
    padding: 20px;
 }

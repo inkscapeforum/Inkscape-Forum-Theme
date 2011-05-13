@@ -35,7 +35,7 @@ div.HeadingTabs div.SubTab {
 }
 
 .StatBox {
-	background: #fff;
+	background: url('/themes/inkscape_forum/design/statbox_bg.png') repeat-x left top #D1D1D1;
 /*	border: 1px solid #CDCFB7;  */
 	padding: 5px 5px 0;
 	float: right;
@@ -67,7 +67,7 @@ div.HeadingTabs div.SubTab {
 	text-shadow: 0 0px 5px #fff;
 }
 .ViewsBox { 
-  background: #fff; 
+   background: url('/themes/inkscape_forum/design/statbox_bg.png') repeat-x left top #D1D1D1;
 	margin-right: 4px;
    border-top-right-radius: 2px;
    border-bottom-right-radius: 2px;
@@ -77,11 +77,15 @@ div.HeadingTabs div.SubTab {
 	-moz-border-radius-bottomright: 2px;
 
 }
-.FollowsBox { background: #fff; }
-.AnswersBox {
-	background: #ffa0a0;
+.FollowsBox { 
+   background: url('/themes/inkscape_forum/design/statbox_bg.png') repeat-x left top #D1D1D1;
 }
-.HasAnswersBox { background: #fff; }
+.AnswersBox {
+	background: url('/themes/inkscape_forum/design/answerbox_bg.png') repeat-x left top #FFC9A4;
+}
+.HasAnswersBox { 
+   background: url('/themes/inkscape_forum/design/statbox_bg.png') repeat-x left top #D1D1D1;
+}
 .HasAnswersBox a { color: #fff; }
 .VotesBox {
 	margin-left: 4px;
@@ -122,7 +126,7 @@ ul.DataList div.Meta strong {
 	right: 668px;
 	top: 6px;
 	*/
-	top: 24px;
+	top: 18px;
 	left: 668px;
 	white-space: nowrap;
 }
