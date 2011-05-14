@@ -1022,6 +1022,11 @@ ul.DataList li.Item {
     border-left: 1px solid #bec8cc;
     background: url('/themes/inkscape_forum/design/item_bg.png') repeat-x left top #FFFFFF;
 }
+#vanilla_discussions_index ul.DataList li.Mine,
+#vanilla_discussions_mine ul.DataList li.Mine,
+#dashboard_profile_discussions ul.DataList li.Mine {
+   background: url('/themes/inkscape_forum/design/item_mine_bg.png') repeat-x left top #FFFFFF;
+}
 ul.DataList li.Item li.Item {
    border-bottom: none;
 }
@@ -1084,7 +1089,7 @@ ul.DataList div.Meta strong {
 	-moz-box-shadow: 0px 0px 2px #777;
 	-webkit-box-shadow: 0px 0px 2px #777;
 	*/
-	background: #FF0;
+	background: #FFEBD3;
 	color:#000;
 	font-size:9px;
 	font-weight:bold;
@@ -1177,11 +1182,11 @@ ul.Activities li.Condensed div.Excerpt {
 }
 ul.Activities div.Excerpt a,
 ul.Activities div.Meta a {
-   color: #1e79a7;
+   color: #4D4D4D;
 }
 ul.Activities div.Excerpt a:hover,
 ul.Activities div.Meta a:hover {
-   color: #ff0084;
+   color: #FF7F2A;
 }
 ul.Activities div.Excerpt img {
 	padding: 2px;
@@ -1284,7 +1289,7 @@ ul.MessageList div.Meta span.Author img {
    margin: 0 10px 0 0;
    float: left;
    overflow: hidden;
-   background: #eee;
+   background: #FFFFFF;
 }
 ul.MessageList div.Meta span {
    line-height: 2.5;

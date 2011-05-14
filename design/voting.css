@@ -63,7 +63,7 @@ div.HeadingTabs div.SubTab {
 	z-index: 10;
 }
 .StatBox a:hover {
-	color: #A2DE3C;
+	color: #FF7F2A;
 	text-shadow: 0 0px 5px #fff;
 }
 .ViewsBox { 
@@ -78,7 +78,7 @@ div.HeadingTabs div.SubTab {
 
 }
 .FollowsBox { 
-   background: url('/themes/inkscape_forum/design/statbox_bg.png') repeat-x left top #D1D1D1;
+   background: #FFFFFF;
 }
 .AnswersBox {
 	background: url('/themes/inkscape_forum/design/answerbox_bg.png') repeat-x left top #FFC9A4;
