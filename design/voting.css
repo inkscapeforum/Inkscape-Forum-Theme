@@ -165,7 +165,6 @@ span.Votes a {
 	color: #99E2FE;
 }
 span.Votes a.VoteUp {
-	background: #a0ffa0;
 	-webkit-border-radius: 3px 0 0 3px; 
 	-moz-border-radius: 3px 0 0 3px;
 	width: 49%;
@@ -173,7 +172,6 @@ span.Votes a.VoteUp {
 	line-height: 100%;
 }
 span.Votes a.VoteDown {
-	background: #ffa0a0;
 	-webkit-border-radius: 0 3px 3px 0; 
 	-moz-border-radius: 0 3px 3px 0;
 	width: 49%;
@@ -191,9 +189,9 @@ span.Votes i.ArrowSprite i {
 }
 i.ArrowSprite {
 	display: inline-block;
-	height: 9px;
-	width: 13px;
-	background: url('arrow_sprite.png') top left no-repeat;
+	height: 22px;
+	width: 22px;
+	background: url('/themes/inkscape_forum/design/thumbs.png') top left no-repeat;
 }
 i.SpriteDown { background-position: bottom left; }
 a:hover i.SpriteUp {	background-position: top right; }
