@@ -2113,8 +2113,7 @@ body.Discussion .Back {
 ul.Discussions div.ItemContent,
 ul.Drafts div.ItemContent {
    margin: 0 0 0 -40px;
-   padding-left: 46px;
-   position: relative; 
+   padding-left: 46px; 
 }
 ul.Drafts div.ItemContent a.Title,
 ul.Discussions div.ItemContent a.Title {
