@@ -2558,6 +2558,9 @@ body.Entry li.Buttons input.Button,
 	line-height: 1;
    width: 170px;
 }
+.Methods div {
+   color: #F0F0F0;
+}
 body#dashboard_entry_password .Methods,
 body#dashboard_entry_signin .Methods,
 body#dashboard_entry_index .Methods {
