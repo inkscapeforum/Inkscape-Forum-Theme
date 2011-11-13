@@ -1,2 +1,5 @@
 #ignore .swp files
 *.swp
+
+#ignore files ending with a tilde
+*~

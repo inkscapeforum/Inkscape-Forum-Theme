@@ -1380,6 +1380,10 @@ links, sign in buttons, etc */
 	font-weight: bold;
 	font-size: 14px;
 }
+.PanelRSS img {
+   margin: 0 6px 0 0;
+   vertical-align: text-bottom;
+}   
 
 /* ============================================================= Profile Page */
 body.Profile #Content {
