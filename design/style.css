@@ -425,8 +425,37 @@ a.Small img {
    margin: 2px 0;
 }
 .DismissMessage.Info {
-   background: #f3f4f8;
+   background: url("/themes/inkscape_forum/design/box_bg.png") repeat-x scroll left top #4D4D4D;
    border: 1px solid #ddd;
+}
+.DismissMessage.Info h4 {
+   color: #F0F0F0;
+   font-size: 110%;
+   font-weight: bold;
+}
+.DismissMessage.Info h5 {
+   color: #CCC;
+   font-size: 100%;
+   font-weight:bold;
+}
+.DismissMessage.Info h5 img {
+   vertical-align: text-bottom;
+   margin-right: 3px;
+}
+.DismissMessage.Info ul {
+   border-bottom: 0 none;
+   border-top: 1px solid #999999;
+}
+.DismissMessage.Info li {
+   background: none repeat scroll 0 0 #F0F0F0;
+   border-bottom: 1px solid #BBBBBB;
+   padding: 2px 7px;
+}
+.DismissMessage.Info a {
+   color: #4D4D4D;
+}
+.DismissMessage.Info a:hover {
+   color: #111;
 }
 .DismissMessage.Warning {
    background: #ffebe9;
@@ -1380,6 +1409,10 @@ links, sign in buttons, etc */
 	font-weight: bold;
 	font-size: 14px;
 }
+.PanelRSS img {
+   margin: 0 6px 0 0;
+   vertical-align: text-bottom;
+}   
 
 /* ============================================================= Profile Page */
 body.Profile #Content {
@@ -2557,6 +2590,9 @@ body.Entry li.Buttons input.Button,
 	padding: 12px 20px 6px;
 	line-height: 1;
    width: 170px;
+}
+.Methods div {
+   color: #F0F0F0;
 }
 body#dashboard_entry_password .Methods,
 body#dashboard_entry_signin .Methods,
